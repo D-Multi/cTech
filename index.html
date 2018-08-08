@@ -168,6 +168,7 @@ font-family: sans-serif;
 
 
 <script>
+var var = document.cookie
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -197,8 +198,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 function alertfunction() {
+  if var == 1 {
+    
+ }
+  else {
 alert('Sign in to access all content')
 alert('cTechstudios announces it will become a Limited Liability Company, see ABOUT to learn more!')
+document.cookie = "1"
+    }
 }
 </script>
 </body>
